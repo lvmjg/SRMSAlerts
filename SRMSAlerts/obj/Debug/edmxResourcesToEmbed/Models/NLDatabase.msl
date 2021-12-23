@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EAM_NL_TESTModelStoreContainer" CdmEntityContainer="EAM_NL_TESTEntities1">
+    <EntitySetMapping Name="R5PERSONNEL">
+      <EntityTypeMapping TypeName="EAM_NL_TESTModel.R5PERSONNEL">
+        <MappingFragment StoreEntitySet="R5PERSONNEL">
+          <ScalarProperty Name="PER_CODE" ColumnName="PER_CODE" />
+          <ScalarProperty Name="PER_DESC" ColumnName="PER_DESC" />
+          <ScalarProperty Name="PER_CLASS" ColumnName="PER_CLASS" />
+          <ScalarProperty Name="PER_MRC" ColumnName="PER_MRC" />
+          <ScalarProperty Name="PER_TRADE" ColumnName="PER_TRADE" />
+          <ScalarProperty Name="PER_NOTUSED" ColumnName="PER_NOTUSED" />
+          <ScalarProperty Name="PER_CAPACITY" ColumnName="PER_CAPACITY" />
+          <ScalarProperty Name="PER_ORG" ColumnName="PER_ORG" />
+          <ScalarProperty Name="PER_CLASS_ORG" ColumnName="PER_CLASS_ORG" />
+          <ScalarProperty Name="PER_EMAILADDRESS" ColumnName="PER_EMAILADDRESS" />
+          <ScalarProperty Name="PER_NOTIFICATIONPREF" ColumnName="PER_NOTIFICATIONPREF" />
+          <ScalarProperty Name="PER_USER" ColumnName="PER_USER" />
+          <ScalarProperty Name="PER_CREATED" ColumnName="PER_CREATED" />
+          <ScalarProperty Name="PER_CREATEDBY" ColumnName="PER_CREATEDBY" />
+          <ScalarProperty Name="PER_UPDATED" ColumnName="PER_UPDATED" />
+          <ScalarProperty Name="PER_UPDATEDBY" ColumnName="PER_UPDATEDBY" />
+          <ScalarProperty Name="PER_UPDATECOUNT" ColumnName="PER_UPDATECOUNT" />
+          <ScalarProperty Name="PER_SQLIDENTITY" ColumnName="PER_SQLIDENTITY" />
+          <ScalarProperty Name="PER_FLEETCUSTOMER" ColumnName="PER_FLEETCUSTOMER" />
+          <ScalarProperty Name="PER_FLEETCUSTOMER_ORG" ColumnName="PER_FLEETCUSTOMER_ORG" />
+          <ScalarProperty Name="PER_COSTCODE" ColumnName="PER_COSTCODE" />
+          <ScalarProperty Name="PER_DRIVERSLICENSE" ColumnName="PER_DRIVERSLICENSE" />
+          <ScalarProperty Name="PER_PHONE" ColumnName="PER_PHONE" />
+          <ScalarProperty Name="PER_PARENT" ColumnName="PER_PARENT" />
+          <ScalarProperty Name="PER_SCHEDULINGSESSIONID" ColumnName="PER_SCHEDULINGSESSIONID" />
+          <ScalarProperty Name="PER_SCHEDULINGTYPE" ColumnName="PER_SCHEDULINGTYPE" />
+          <ScalarProperty Name="PER_CUSTOMER" ColumnName="PER_CUSTOMER" />
+          <ScalarProperty Name="PER_CUSTOMER_ORG" ColumnName="PER_CUSTOMER_ORG" />
+          <ScalarProperty Name="PER_ALIAS" ColumnName="PER_ALIAS" />
+          <ScalarProperty Name="PER_OBJECT" ColumnName="PER_OBJECT" />
+          <ScalarProperty Name="PER_OBJECT_ORG" ColumnName="PER_OBJECT_ORG" />
+          <ScalarProperty Name="PER_UDFCHAR01" ColumnName="PER_UDFCHAR01" />
+          <ScalarProperty Name="PER_UDFCHAR02" ColumnName="PER_UDFCHAR02" />
+          <ScalarProperty Name="PER_UDFCHAR03" ColumnName="PER_UDFCHAR03" />
+          <ScalarProperty Name="PER_UDFCHAR04" ColumnName="PER_UDFCHAR04" />
+          <ScalarProperty Name="PER_UDFCHAR05" ColumnName="PER_UDFCHAR05" />
+          <ScalarProperty Name="PER_UDFCHAR06" ColumnName="PER_UDFCHAR06" />
+          <ScalarProperty Name="PER_UDFCHAR07" ColumnName="PER_UDFCHAR07" />
+          <ScalarProperty Name="PER_UDFCHAR08" ColumnName="PER_UDFCHAR08" />
+          <ScalarProperty Name="PER_UDFCHAR09" ColumnName="PER_UDFCHAR09" />
+          <ScalarProperty Name="PER_UDFCHAR10" ColumnName="PER_UDFCHAR10" />
+          <ScalarProperty Name="PER_UDFCHAR11" ColumnName="PER_UDFCHAR11" />
+          <ScalarProperty Name="PER_UDFCHAR12" ColumnName="PER_UDFCHAR12" />
+          <ScalarProperty Name="PER_UDFCHAR13" ColumnName="PER_UDFCHAR13" />
+          <ScalarProperty Name="PER_UDFCHAR14" ColumnName="PER_UDFCHAR14" />
+          <ScalarProperty Name="PER_UDFCHAR15" ColumnName="PER_UDFCHAR15" />
+          <ScalarProperty Name="PER_UDFCHAR16" ColumnName="PER_UDFCHAR16" />
+          <ScalarProperty Name="PER_UDFCHAR17" ColumnName="PER_UDFCHAR17" />
+          <ScalarProperty Name="PER_UDFCHAR18" ColumnName="PER_UDFCHAR18" />
+          <ScalarProperty Name="PER_UDFCHAR19" ColumnName="PER_UDFCHAR19" />
+          <ScalarProperty Name="PER_UDFCHAR20" ColumnName="PER_UDFCHAR20" />
+          <ScalarProperty Name="PER_UDFCHAR21" ColumnName="PER_UDFCHAR21" />
+          <ScalarProperty Name="PER_UDFCHAR22" ColumnName="PER_UDFCHAR22" />
+          <ScalarProperty Name="PER_UDFCHAR23" ColumnName="PER_UDFCHAR23" />
+          <ScalarProperty Name="PER_UDFCHAR24" ColumnName="PER_UDFCHAR24" />
+          <ScalarProperty Name="PER_UDFCHAR25" ColumnName="PER_UDFCHAR25" />
+          <ScalarProperty Name="PER_UDFCHAR26" ColumnName="PER_UDFCHAR26" />
+          <ScalarProperty Name="PER_UDFCHAR27" ColumnName="PER_UDFCHAR27" />
+          <ScalarProperty Name="PER_UDFCHAR28" ColumnName="PER_UDFCHAR28" />
+          <ScalarProperty Name="PER_UDFCHAR29" ColumnName="PER_UDFCHAR29" />
+          <ScalarProperty Name="PER_UDFCHAR30" ColumnName="PER_UDFCHAR30" />
+          <ScalarProperty Name="PER_UDFNUM01" ColumnName="PER_UDFNUM01" />
+          <ScalarProperty Name="PER_UDFNUM02" ColumnName="PER_UDFNUM02" />
+          <ScalarProperty Name="PER_UDFNUM03" ColumnName="PER_UDFNUM03" />
+          <ScalarProperty Name="PER_UDFNUM04" ColumnName="PER_UDFNUM04" />
+          <ScalarProperty Name="PER_UDFNUM05" ColumnName="PER_UDFNUM05" />
+          <ScalarProperty Name="PER_UDFDATE01" ColumnName="PER_UDFDATE01" />
+          <ScalarProperty Name="PER_UDFDATE02" ColumnName="PER_UDFDATE02" />
+          <ScalarProperty Name="PER_UDFDATE03" ColumnName="PER_UDFDATE03" />
+          <ScalarProperty Name="PER_UDFDATE04" ColumnName="PER_UDFDATE04" />
+          <ScalarProperty Name="PER_UDFDATE05" ColumnName="PER_UDFDATE05" />
+          <ScalarProperty Name="PER_UDFCHKBOX01" ColumnName="PER_UDFCHKBOX01" />
+          <ScalarProperty Name="PER_UDFCHKBOX02" ColumnName="PER_UDFCHKBOX02" />
+          <ScalarProperty Name="PER_UDFCHKBOX03" ColumnName="PER_UDFCHKBOX03" />
+          <ScalarProperty Name="PER_UDFCHKBOX04" ColumnName="PER_UDFCHKBOX04" />
+          <ScalarProperty Name="PER_UDFCHKBOX05" ColumnName="PER_UDFCHKBOX05" />
+          <ScalarProperty Name="PER_JOBTITLE" ColumnName="PER_JOBTITLE" />
+          <ScalarProperty Name="PER_SUPERVISOR" ColumnName="PER_SUPERVISOR" />
+          <ScalarProperty Name="PER_HIREDATE" ColumnName="PER_HIREDATE" />
+          <ScalarProperty Name="PER_BIRTHDATE" ColumnName="PER_BIRTHDATE" />
+          <ScalarProperty Name="PER_TERMINATEDDATE" ColumnName="PER_TERMINATEDDATE" />
+          <ScalarProperty Name="PER_PAYROLLNO" ColumnName="PER_PAYROLLNO" />
+          <ScalarProperty Name="PER_SECURITYBADGENO" ColumnName="PER_SECURITYBADGENO" />
+          <ScalarProperty Name="PER_ADDRESS" ColumnName="PER_ADDRESS" />
+          <ScalarProperty Name="PER_CITY" ColumnName="PER_CITY" />
+          <ScalarProperty Name="PER_STATE" ColumnName="PER_STATE" />
+          <ScalarProperty Name="PER_ZIP" ColumnName="PER_ZIP" />
+          <ScalarProperty Name="PER_COUNTRY" ColumnName="PER_COUNTRY" />
+          <ScalarProperty Name="PER_EMERGENCYCONTACT" ColumnName="PER_EMERGENCYCONTACT" />
+          <ScalarProperty Name="PER_EMERGENCYCONTACTPHNO" ColumnName="PER_EMERGENCYCONTACTPHNO" />
+          <ScalarProperty Name="PER_MOBILEPHONENO" ColumnName="PER_MOBILEPHONENO" />
+          <ScalarProperty Name="PER_HOMEPHONENO" ColumnName="PER_HOMEPHONENO" />
+          <ScalarProperty Name="PER_URL" ColumnName="PER_URL" />
+          <ScalarProperty Name="PER_FAX" ColumnName="PER_FAX" />
+          <ScalarProperty Name="PER_INITIALS" ColumnName="PER_INITIALS" />
+          <ScalarProperty Name="PER_TRADESPERSON" ColumnName="PER_TRADESPERSON" />
+          <ScalarProperty Name="PER_WORKSPACEOCCUPANT" ColumnName="PER_WORKSPACEOCCUPANT" />
+          <ScalarProperty Name="PER_LASTSAVED" ColumnName="PER_LASTSAVED" />
+          <ScalarProperty Name="PER_PROFILEPICTURE" ColumnName="PER_PROFILEPICTURE" />
+          <ScalarProperty Name="PER_DETERMINESCREWLOCATION" ColumnName="PER_DETERMINESCREWLOCATION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="R5PERSONNELQUALIFICATIONS">
+      <EntityTypeMapping TypeName="EAM_NL_TESTModel.R5PERSONNELQUALIFICATIONS">
+        <MappingFragment StoreEntitySet="R5PERSONNELQUALIFICATIONS">
+          <ScalarProperty Name="PQU_PERSON" ColumnName="PQU_PERSON" />
+          <ScalarProperty Name="PQU_QUALIFICATION" ColumnName="PQU_QUALIFICATION" />
+          <ScalarProperty Name="PQU_PURPOSE" ColumnName="PQU_PURPOSE" />
+          <ScalarProperty Name="PQU_HOURS" ColumnName="PQU_HOURS" />
+          <ScalarProperty Name="PQU_CEU" ColumnName="PQU_CEU" />
+          <ScalarProperty Name="PQU_COURSESTART" ColumnName="PQU_COURSESTART" />
+          <ScalarProperty Name="PQU_COURSEFINISH" ColumnName="PQU_COURSEFINISH" />
+          <ScalarProperty Name="PQU_COURSECOST" ColumnName="PQU_COURSECOST" />
+          <ScalarProperty Name="PQU_CURRENCY" ColumnName="PQU_CURRENCY" />
+          <ScalarProperty Name="PQU_COURSECOMPLETED" ColumnName="PQU_COURSECOMPLETED" />
+          <ScalarProperty Name="PQU_CERTIFICATION" ColumnName="PQU_CERTIFICATION" />
+          <ScalarProperty Name="PQU_CERTIFICATIONTYPE" ColumnName="PQU_CERTIFICATIONTYPE" />
+          <ScalarProperty Name="PQU_QUALIFICATIONSTART" ColumnName="PQU_QUALIFICATIONSTART" />
+          <ScalarProperty Name="PQU_DURATION" ColumnName="PQU_DURATION" />
+          <ScalarProperty Name="PQU_DURATIONUOM" ColumnName="PQU_DURATIONUOM" />
+          <ScalarProperty Name="PQU_EXPIRATION" ColumnName="PQU_EXPIRATION" />
+          <ScalarProperty Name="PQU_COMMENTS" ColumnName="PQU_COMMENTS" />
+          <ScalarProperty Name="PQU_TEMPDISQUALIFIED" ColumnName="PQU_TEMPDISQUALIFIED" />
+          <ScalarProperty Name="PQU_UPDATED" ColumnName="PQU_UPDATED" />
+          <ScalarProperty Name="PQU_UPDATECOUNT" ColumnName="PQU_UPDATECOUNT" />
+          <ScalarProperty Name="PQU_SQLIDENTITY" ColumnName="PQU_SQLIDENTITY" />
+          <ScalarProperty Name="PQU_LASTSAVED" ColumnName="PQU_LASTSAVED" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

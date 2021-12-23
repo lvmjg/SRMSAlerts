@@ -1,0 +1,13 @@
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\obj\Debug\SRMSAlerts.ProjectInstaller.resources
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\obj\Debug\SRMSAlerts.csproj.GenerateResource.cache
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\obj\Debug\SRMSAlerts.csproj.CoreCompileInputs.cache
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe.config
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.pdb
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\obj\Debug\SRMSAlerts.exe
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\obj\Debug\SRMSAlerts.pdb
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\EntityFramework.dll
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\EntityFramework.xml
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\obj\Debug\SRMSAlerts.csproj.CopyComplete

@@ -1,0 +1,195 @@
+﻿Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Installing service SRMSAlerts...
+Service SRMSAlerts has been successfully installed.
+Creating EventLog source SRMSAlerts in log Application...
+Committing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.
+Installing assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Installing service SRMSAlerts...
+Creating EventLog source SRMSAlerts in log Application...
+Rolling back assembly 'C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.exe
+   logfile = C:\Users\godjan\source\repos\SRMSAlerts\SRMSAlerts\bin\Debug\SRMSAlerts.InstallLog
+Restoring event log to previous state for source SRMSAlerts.

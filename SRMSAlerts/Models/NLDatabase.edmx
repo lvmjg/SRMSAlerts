@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EAM_NL_TESTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="R5PERSONNEL">
+          <Key>
+            <PropertyRef Name="PER_CODE" />
+          </Key>
+          <Property Name="PER_CODE" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="PER_DESC" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_CLASS" Type="nvarchar" MaxLength="8" />
+          <Property Name="PER_MRC" Type="nvarchar" MaxLength="15" />
+          <Property Name="PER_TRADE" Type="nvarchar" MaxLength="15" />
+          <Property Name="PER_NOTUSED" Type="nvarchar" MaxLength="1" />
+          <Property Name="PER_CAPACITY" Type="numeric" Precision="24" Scale="6" />
+          <Property Name="PER_ORG" Type="nvarchar" MaxLength="15" />
+          <Property Name="PER_CLASS_ORG" Type="nvarchar" MaxLength="15" />
+          <Property Name="PER_EMAILADDRESS" Type="nvarchar" MaxLength="255" />
+          <Property Name="PER_NOTIFICATIONPREF" Type="nvarchar" MaxLength="4" />
+          <Property Name="PER_USER" Type="nvarchar" MaxLength="255" />
+          <Property Name="PER_CREATED" Type="datetime" />
+          <Property Name="PER_CREATEDBY" Type="nvarchar" MaxLength="255" />
+          <Property Name="PER_UPDATED" Type="datetime" />
+          <Property Name="PER_UPDATEDBY" Type="nvarchar" MaxLength="255" />
+          <Property Name="PER_UPDATECOUNT" Type="numeric" Precision="38" Scale="0" />
+          <Property Name="PER_SQLIDENTITY" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PER_FLEETCUSTOMER" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_FLEETCUSTOMER_ORG" Type="nvarchar" MaxLength="15" />
+          <Property Name="PER_COSTCODE" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_DRIVERSLICENSE" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_PHONE" Type="nvarchar" MaxLength="50" />
+          <Property Name="PER_PARENT" Type="nvarchar" MaxLength="15" />
+          <Property Name="PER_SCHEDULINGSESSIONID" Type="nvarchar" MaxLength="20" />
+          <Property Name="PER_SCHEDULINGTYPE" Type="nvarchar" MaxLength="4" />
+          <Property Name="PER_CUSTOMER" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_CUSTOMER_ORG" Type="nvarchar" MaxLength="15" />
+          <Property Name="PER_ALIAS" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_OBJECT" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_OBJECT_ORG" Type="nvarchar" MaxLength="15" />
+          <Property Name="PER_UDFCHAR01" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR02" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR03" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR04" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR05" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR06" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR07" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR08" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR09" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR10" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR11" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR12" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR13" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR14" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR15" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR16" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR17" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR18" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR19" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR20" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR21" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR22" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR23" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR24" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR25" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR26" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR27" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR28" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR29" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFCHAR30" Type="nvarchar" MaxLength="80" />
+          <Property Name="PER_UDFNUM01" Type="numeric" Precision="24" Scale="6" />
+          <Property Name="PER_UDFNUM02" Type="numeric" Precision="24" Scale="6" />
+          <Property Name="PER_UDFNUM03" Type="numeric" Precision="24" Scale="6" />
+          <Property Name="PER_UDFNUM04" Type="numeric" Precision="24" Scale="6" />
+          <Property Name="PER_UDFNUM05" Type="numeric" Precision="24" Scale="6" />
+          <Property Name="PER_UDFDATE01" Type="datetime" />
+          <Property Name="PER_UDFDATE02" Type="datetime" />
+          <Property Name="PER_UDFDATE03" Type="datetime" />
+          <Property Name="PER_UDFDATE04" Type="datetime" />
+          <Property Name="PER_UDFDATE05" Type="datetime" />
+          <Property Name="PER_UDFCHKBOX01" Type="nvarchar" MaxLength="1" />
+          <Property Name="PER_UDFCHKBOX02" Type="nvarchar" MaxLength="1" />
+          <Property Name="PER_UDFCHKBOX03" Type="nvarchar" MaxLength="1" />
+          <Property Name="PER_UDFCHKBOX04" Type="nvarchar" MaxLength="1" />
+          <Property Name="PER_UDFCHKBOX05" Type="nvarchar" MaxLength="1" />
+          <Property Name="PER_JOBTITLE" Type="nvarchar" MaxLength="50" />
+          <Property Name="PER_SUPERVISOR" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_HIREDATE" Type="datetime" />
+          <Property Name="PER_BIRTHDATE" Type="datetime" />
+          <Property Name="PER_TERMINATEDDATE" Type="datetime" />
+          <Property Name="PER_PAYROLLNO" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_SECURITYBADGENO" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_ADDRESS" Type="nvarchar" MaxLength="50" />
+          <Property Name="PER_CITY" Type="nvarchar" MaxLength="20" />
+          <Property Name="PER_STATE" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_ZIP" Type="nvarchar" MaxLength="10" />
+          <Property Name="PER_COUNTRY" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_EMERGENCYCONTACT" Type="nvarchar" MaxLength="50" />
+          <Property Name="PER_EMERGENCYCONTACTPHNO" Type="nvarchar" MaxLength="50" />
+          <Property Name="PER_MOBILEPHONENO" Type="nvarchar" MaxLength="50" />
+          <Property Name="PER_HOMEPHONENO" Type="nvarchar" MaxLength="50" />
+          <Property Name="PER_URL" Type="nvarchar" MaxLength="1000" />
+          <Property Name="PER_FAX" Type="nvarchar" MaxLength="50" />
+          <Property Name="PER_INITIALS" Type="nvarchar" MaxLength="3" />
+          <Property Name="PER_TRADESPERSON" Type="nvarchar" MaxLength="1" />
+          <Property Name="PER_WORKSPACEOCCUPANT" Type="nvarchar" MaxLength="1" />
+          <Property Name="PER_LASTSAVED" Type="datetime2" Precision="7" />
+          <Property Name="PER_PROFILEPICTURE" Type="nvarchar" MaxLength="30" />
+          <Property Name="PER_DETERMINESCREWLOCATION" Type="nvarchar" MaxLength="1" />
+        </EntityType>
+        <EntityType Name="R5PERSONNELQUALIFICATIONS">
+          <Key>
+            <PropertyRef Name="PQU_PERSON" />
+            <PropertyRef Name="PQU_QUALIFICATION" />
+            <PropertyRef Name="PQU_QUALIFICATIONSTART" />
+          </Key>
+          <Property Name="PQU_PERSON" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="PQU_QUALIFICATION" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="PQU_PURPOSE" Type="nvarchar" MaxLength="80" />
+          <Property Name="PQU_HOURS" Type="numeric" Precision="5" Scale="1" />
+          <Property Name="PQU_CEU" Type="numeric" Precision="5" Scale="1" />
+          <Property Name="PQU_COURSESTART" Type="datetime" />
+          <Property Name="PQU_COURSEFINISH" Type="datetime" />
+          <Property Name="PQU_COURSECOST" Type="numeric" Precision="24" Scale="6" />
+          <Property Name="PQU_CURRENCY" Type="nvarchar" MaxLength="3" />
+          <Property Name="PQU_COURSECOMPLETED" Type="nvarchar" MaxLength="1" />
+          <Property Name="PQU_CERTIFICATION" Type="nvarchar" MaxLength="20" />
+          <Property Name="PQU_CERTIFICATIONTYPE" Type="nvarchar" MaxLength="8" />
+          <Property Name="PQU_QUALIFICATIONSTART" Type="datetime" Nullable="false" />
+          <Property Name="PQU_DURATION" Type="numeric" Precision="4" Scale="0" />
+          <Property Name="PQU_DURATIONUOM" Type="nvarchar" MaxLength="10" />
+          <Property Name="PQU_EXPIRATION" Type="datetime" />
+          <Property Name="PQU_COMMENTS" Type="nvarchar" MaxLength="80" />
+          <Property Name="PQU_TEMPDISQUALIFIED" Type="nvarchar" MaxLength="1" />
+          <Property Name="PQU_UPDATED" Type="datetime" />
+          <Property Name="PQU_UPDATECOUNT" Type="numeric" Precision="38" Scale="0" />
+          <Property Name="PQU_SQLIDENTITY" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PQU_LASTSAVED" Type="datetime2" Precision="7" />
+        </EntityType>
+        <Association Name="R5FOK1_PQU">
+          <End Role="R5PERSONNEL" Type="Self.R5PERSONNEL" Multiplicity="1" />
+          <End Role="R5PERSONNELQUALIFICATIONS" Type="Self.R5PERSONNELQUALIFICATIONS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="R5PERSONNEL">
+              <PropertyRef Name="PER_CODE" />
+            </Principal>
+            <Dependent Role="R5PERSONNELQUALIFICATIONS">
+              <PropertyRef Name="PQU_PERSON" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="R5FOK8_PER">
+          <End Role="R5PERSONNEL" Type="Self.R5PERSONNEL" Multiplicity="0..1" />
+          <End Role="R5PERSONNEL1" Type="Self.R5PERSONNEL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="R5PERSONNEL">
+              <PropertyRef Name="PER_CODE" />
+            </Principal>
+            <Dependent Role="R5PERSONNEL1">
+              <PropertyRef Name="PER_PARENT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EAM_NL_TESTModelStoreContainer">
+          <EntitySet Name="R5PERSONNEL" EntityType="Self.R5PERSONNEL" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="R5PERSONNELQUALIFICATIONS" EntityType="Self.R5PERSONNELQUALIFICATIONS" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="R5FOK1_PQU" Association="Self.R5FOK1_PQU">
+            <End Role="R5PERSONNEL" EntitySet="R5PERSONNEL" />
+            <End Role="R5PERSONNELQUALIFICATIONS" EntitySet="R5PERSONNELQUALIFICATIONS" />
+          </AssociationSet>
+          <AssociationSet Name="R5FOK8_PER" Association="Self.R5FOK8_PER">
+            <End Role="R5PERSONNEL" EntitySet="R5PERSONNEL" />
+            <End Role="R5PERSONNEL1" EntitySet="R5PERSONNEL" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EAM_NL_TESTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="R5PERSONNEL">
+          <Key>
+            <PropertyRef Name="PER_CODE" />
+          </Key>
+          <Property Name="PER_CODE" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PER_DESC" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_CLASS" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="PER_MRC" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PER_TRADE" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PER_NOTUSED" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PER_CAPACITY" Type="Decimal" Precision="24" Scale="6" />
+          <Property Name="PER_ORG" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PER_CLASS_ORG" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PER_EMAILADDRESS" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PER_NOTIFICATIONPREF" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+          <Property Name="PER_USER" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PER_CREATED" Type="DateTime" Precision="3" />
+          <Property Name="PER_CREATEDBY" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UPDATED" Type="DateTime" Precision="3" />
+          <Property Name="PER_UPDATEDBY" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UPDATECOUNT" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="PER_SQLIDENTITY" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PER_FLEETCUSTOMER" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_FLEETCUSTOMER_ORG" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PER_COSTCODE" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_DRIVERSLICENSE" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_PHONE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PER_PARENT" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PER_SCHEDULINGSESSIONID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="PER_SCHEDULINGTYPE" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+          <Property Name="PER_CUSTOMER" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_CUSTOMER_ORG" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PER_ALIAS" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_OBJECT" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_OBJECT_ORG" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR01" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR02" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR03" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR04" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR05" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR06" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR07" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR08" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR09" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR10" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR11" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR12" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR13" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR14" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR15" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR16" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR17" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR18" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR19" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR20" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR21" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR22" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR23" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR24" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR25" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR26" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR27" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR28" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR29" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHAR30" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFNUM01" Type="Decimal" Precision="24" Scale="6" />
+          <Property Name="PER_UDFNUM02" Type="Decimal" Precision="24" Scale="6" />
+          <Property Name="PER_UDFNUM03" Type="Decimal" Precision="24" Scale="6" />
+          <Property Name="PER_UDFNUM04" Type="Decimal" Precision="24" Scale="6" />
+          <Property Name="PER_UDFNUM05" Type="Decimal" Precision="24" Scale="6" />
+          <Property Name="PER_UDFDATE01" Type="DateTime" Precision="3" />
+          <Property Name="PER_UDFDATE02" Type="DateTime" Precision="3" />
+          <Property Name="PER_UDFDATE03" Type="DateTime" Precision="3" />
+          <Property Name="PER_UDFDATE04" Type="DateTime" Precision="3" />
+          <Property Name="PER_UDFDATE05" Type="DateTime" Precision="3" />
+          <Property Name="PER_UDFCHKBOX01" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHKBOX02" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHKBOX03" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHKBOX04" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PER_UDFCHKBOX05" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PER_JOBTITLE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PER_SUPERVISOR" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_HIREDATE" Type="DateTime" Precision="3" />
+          <Property Name="PER_BIRTHDATE" Type="DateTime" Precision="3" />
+          <Property Name="PER_TERMINATEDDATE" Type="DateTime" Precision="3" />
+          <Property Name="PER_PAYROLLNO" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_SECURITYBADGENO" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_ADDRESS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PER_CITY" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="PER_STATE" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_ZIP" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="PER_COUNTRY" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_EMERGENCYCONTACT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PER_EMERGENCYCONTACTPHNO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PER_MOBILEPHONENO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PER_HOMEPHONENO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PER_URL" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="PER_FAX" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PER_INITIALS" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="PER_TRADESPERSON" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PER_WORKSPACEOCCUPANT" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PER_LASTSAVED" Type="DateTime" Precision="7" />
+          <Property Name="PER_PROFILEPICTURE" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PER_DETERMINESCREWLOCATION" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="R5PERSONNELQUALIFICATIONS" Relationship="Self.R5FOK1_PQU" FromRole="R5PERSONNEL" ToRole="R5PERSONNELQUALIFICATIONS" />
+          <NavigationProperty Name="R5PERSONNEL1" Relationship="Self.R5FOK8_PER" FromRole="R5PERSONNEL" ToRole="R5PERSONNEL1" />
+          <NavigationProperty Name="R5PERSONNEL2" Relationship="Self.R5FOK8_PER" FromRole="R5PERSONNEL1" ToRole="R5PERSONNEL" />
+        </EntityType>
+        <EntityType Name="R5PERSONNELQUALIFICATIONS">
+          <Key>
+            <PropertyRef Name="PQU_PERSON" />
+            <PropertyRef Name="PQU_QUALIFICATION" />
+            <PropertyRef Name="PQU_QUALIFICATIONSTART" />
+          </Key>
+          <Property Name="PQU_PERSON" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PQU_QUALIFICATION" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PQU_PURPOSE" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PQU_HOURS" Type="Decimal" Precision="5" Scale="1" />
+          <Property Name="PQU_CEU" Type="Decimal" Precision="5" Scale="1" />
+          <Property Name="PQU_COURSESTART" Type="DateTime" Precision="3" />
+          <Property Name="PQU_COURSEFINISH" Type="DateTime" Precision="3" />
+          <Property Name="PQU_COURSECOST" Type="Decimal" Precision="24" Scale="6" />
+          <Property Name="PQU_CURRENCY" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="PQU_COURSECOMPLETED" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PQU_CERTIFICATION" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="PQU_CERTIFICATIONTYPE" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="PQU_QUALIFICATIONSTART" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PQU_DURATION" Type="Decimal" Precision="4" Scale="0" />
+          <Property Name="PQU_DURATIONUOM" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="PQU_EXPIRATION" Type="DateTime" Precision="3" />
+          <Property Name="PQU_COMMENTS" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PQU_TEMPDISQUALIFIED" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PQU_UPDATED" Type="DateTime" Precision="3" />
+          <Property Name="PQU_UPDATECOUNT" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="PQU_SQLIDENTITY" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PQU_LASTSAVED" Type="DateTime" Precision="7" />
+          <NavigationProperty Name="R5PERSONNEL" Relationship="Self.R5FOK1_PQU" FromRole="R5PERSONNELQUALIFICATIONS" ToRole="R5PERSONNEL" />
+        </EntityType>
+        <Association Name="R5FOK1_PQU">
+          <End Role="R5PERSONNEL" Type="Self.R5PERSONNEL" Multiplicity="1" />
+          <End Role="R5PERSONNELQUALIFICATIONS" Type="Self.R5PERSONNELQUALIFICATIONS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="R5PERSONNEL">
+              <PropertyRef Name="PER_CODE" />
+            </Principal>
+            <Dependent Role="R5PERSONNELQUALIFICATIONS">
+              <PropertyRef Name="PQU_PERSON" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="R5FOK8_PER">
+          <End Role="R5PERSONNEL" Type="Self.R5PERSONNEL" Multiplicity="0..1" />
+          <End Role="R5PERSONNEL1" Type="Self.R5PERSONNEL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="R5PERSONNEL">
+              <PropertyRef Name="PER_CODE" />
+            </Principal>
+            <Dependent Role="R5PERSONNEL1">
+              <PropertyRef Name="PER_PARENT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EAM_NL_TESTEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="R5PERSONNEL" EntityType="Self.R5PERSONNEL" />
+          <EntitySet Name="R5PERSONNELQUALIFICATIONS" EntityType="Self.R5PERSONNELQUALIFICATIONS" />
+          <AssociationSet Name="R5FOK1_PQU" Association="Self.R5FOK1_PQU">
+            <End Role="R5PERSONNEL" EntitySet="R5PERSONNEL" />
+            <End Role="R5PERSONNELQUALIFICATIONS" EntitySet="R5PERSONNELQUALIFICATIONS" />
+          </AssociationSet>
+          <AssociationSet Name="R5FOK8_PER" Association="Self.R5FOK8_PER">
+            <End Role="R5PERSONNEL" EntitySet="R5PERSONNEL" />
+            <End Role="R5PERSONNEL1" EntitySet="R5PERSONNEL" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EAM_NL_TESTModelStoreContainer" CdmEntityContainer="EAM_NL_TESTEntities1">
+          <EntitySetMapping Name="R5PERSONNEL">
+            <EntityTypeMapping TypeName="EAM_NL_TESTModel.R5PERSONNEL">
+              <MappingFragment StoreEntitySet="R5PERSONNEL">
+                <ScalarProperty Name="PER_CODE" ColumnName="PER_CODE" />
+                <ScalarProperty Name="PER_DESC" ColumnName="PER_DESC" />
+                <ScalarProperty Name="PER_CLASS" ColumnName="PER_CLASS" />
+                <ScalarProperty Name="PER_MRC" ColumnName="PER_MRC" />
+                <ScalarProperty Name="PER_TRADE" ColumnName="PER_TRADE" />
+                <ScalarProperty Name="PER_NOTUSED" ColumnName="PER_NOTUSED" />
+                <ScalarProperty Name="PER_CAPACITY" ColumnName="PER_CAPACITY" />
+                <ScalarProperty Name="PER_ORG" ColumnName="PER_ORG" />
+                <ScalarProperty Name="PER_CLASS_ORG" ColumnName="PER_CLASS_ORG" />
+                <ScalarProperty Name="PER_EMAILADDRESS" ColumnName="PER_EMAILADDRESS" />
+                <ScalarProperty Name="PER_NOTIFICATIONPREF" ColumnName="PER_NOTIFICATIONPREF" />
+                <ScalarProperty Name="PER_USER" ColumnName="PER_USER" />
+                <ScalarProperty Name="PER_CREATED" ColumnName="PER_CREATED" />
+                <ScalarProperty Name="PER_CREATEDBY" ColumnName="PER_CREATEDBY" />
+                <ScalarProperty Name="PER_UPDATED" ColumnName="PER_UPDATED" />
+                <ScalarProperty Name="PER_UPDATEDBY" ColumnName="PER_UPDATEDBY" />
+                <ScalarProperty Name="PER_UPDATECOUNT" ColumnName="PER_UPDATECOUNT" />
+                <ScalarProperty Name="PER_SQLIDENTITY" ColumnName="PER_SQLIDENTITY" />
+                <ScalarProperty Name="PER_FLEETCUSTOMER" ColumnName="PER_FLEETCUSTOMER" />
+                <ScalarProperty Name="PER_FLEETCUSTOMER_ORG" ColumnName="PER_FLEETCUSTOMER_ORG" />
+                <ScalarProperty Name="PER_COSTCODE" ColumnName="PER_COSTCODE" />
+                <ScalarProperty Name="PER_DRIVERSLICENSE" ColumnName="PER_DRIVERSLICENSE" />
+                <ScalarProperty Name="PER_PHONE" ColumnName="PER_PHONE" />
+                <ScalarProperty Name="PER_PARENT" ColumnName="PER_PARENT" />
+                <ScalarProperty Name="PER_SCHEDULINGSESSIONID" ColumnName="PER_SCHEDULINGSESSIONID" />
+                <ScalarProperty Name="PER_SCHEDULINGTYPE" ColumnName="PER_SCHEDULINGTYPE" />
+                <ScalarProperty Name="PER_CUSTOMER" ColumnName="PER_CUSTOMER" />
+                <ScalarProperty Name="PER_CUSTOMER_ORG" ColumnName="PER_CUSTOMER_ORG" />
+                <ScalarProperty Name="PER_ALIAS" ColumnName="PER_ALIAS" />
+                <ScalarProperty Name="PER_OBJECT" ColumnName="PER_OBJECT" />
+                <ScalarProperty Name="PER_OBJECT_ORG" ColumnName="PER_OBJECT_ORG" />
+                <ScalarProperty Name="PER_UDFCHAR01" ColumnName="PER_UDFCHAR01" />
+                <ScalarProperty Name="PER_UDFCHAR02" ColumnName="PER_UDFCHAR02" />
+                <ScalarProperty Name="PER_UDFCHAR03" ColumnName="PER_UDFCHAR03" />
+                <ScalarProperty Name="PER_UDFCHAR04" ColumnName="PER_UDFCHAR04" />
+                <ScalarProperty Name="PER_UDFCHAR05" ColumnName="PER_UDFCHAR05" />
+                <ScalarProperty Name="PER_UDFCHAR06" ColumnName="PER_UDFCHAR06" />
+                <ScalarProperty Name="PER_UDFCHAR07" ColumnName="PER_UDFCHAR07" />
+                <ScalarProperty Name="PER_UDFCHAR08" ColumnName="PER_UDFCHAR08" />
+                <ScalarProperty Name="PER_UDFCHAR09" ColumnName="PER_UDFCHAR09" />
+                <ScalarProperty Name="PER_UDFCHAR10" ColumnName="PER_UDFCHAR10" />
+                <ScalarProperty Name="PER_UDFCHAR11" ColumnName="PER_UDFCHAR11" />
+                <ScalarProperty Name="PER_UDFCHAR12" ColumnName="PER_UDFCHAR12" />
+                <ScalarProperty Name="PER_UDFCHAR13" ColumnName="PER_UDFCHAR13" />
+                <ScalarProperty Name="PER_UDFCHAR14" ColumnName="PER_UDFCHAR14" />
+                <ScalarProperty Name="PER_UDFCHAR15" ColumnName="PER_UDFCHAR15" />
+                <ScalarProperty Name="PER_UDFCHAR16" ColumnName="PER_UDFCHAR16" />
+                <ScalarProperty Name="PER_UDFCHAR17" ColumnName="PER_UDFCHAR17" />
+                <ScalarProperty Name="PER_UDFCHAR18" ColumnName="PER_UDFCHAR18" />
+                <ScalarProperty Name="PER_UDFCHAR19" ColumnName="PER_UDFCHAR19" />
+                <ScalarProperty Name="PER_UDFCHAR20" ColumnName="PER_UDFCHAR20" />
+                <ScalarProperty Name="PER_UDFCHAR21" ColumnName="PER_UDFCHAR21" />
+                <ScalarProperty Name="PER_UDFCHAR22" ColumnName="PER_UDFCHAR22" />
+                <ScalarProperty Name="PER_UDFCHAR23" ColumnName="PER_UDFCHAR23" />
+                <ScalarProperty Name="PER_UDFCHAR24" ColumnName="PER_UDFCHAR24" />
+                <ScalarProperty Name="PER_UDFCHAR25" ColumnName="PER_UDFCHAR25" />
+                <ScalarProperty Name="PER_UDFCHAR26" ColumnName="PER_UDFCHAR26" />
+                <ScalarProperty Name="PER_UDFCHAR27" ColumnName="PER_UDFCHAR27" />
+                <ScalarProperty Name="PER_UDFCHAR28" ColumnName="PER_UDFCHAR28" />
+                <ScalarProperty Name="PER_UDFCHAR29" ColumnName="PER_UDFCHAR29" />
+                <ScalarProperty Name="PER_UDFCHAR30" ColumnName="PER_UDFCHAR30" />
+                <ScalarProperty Name="PER_UDFNUM01" ColumnName="PER_UDFNUM01" />
+                <ScalarProperty Name="PER_UDFNUM02" ColumnName="PER_UDFNUM02" />
+                <ScalarProperty Name="PER_UDFNUM03" ColumnName="PER_UDFNUM03" />
+                <ScalarProperty Name="PER_UDFNUM04" ColumnName="PER_UDFNUM04" />
+                <ScalarProperty Name="PER_UDFNUM05" ColumnName="PER_UDFNUM05" />
+                <ScalarProperty Name="PER_UDFDATE01" ColumnName="PER_UDFDATE01" />
+                <ScalarProperty Name="PER_UDFDATE02" ColumnName="PER_UDFDATE02" />
+                <ScalarProperty Name="PER_UDFDATE03" ColumnName="PER_UDFDATE03" />
+                <ScalarProperty Name="PER_UDFDATE04" ColumnName="PER_UDFDATE04" />
+                <ScalarProperty Name="PER_UDFDATE05" ColumnName="PER_UDFDATE05" />
+                <ScalarProperty Name="PER_UDFCHKBOX01" ColumnName="PER_UDFCHKBOX01" />
+                <ScalarProperty Name="PER_UDFCHKBOX02" ColumnName="PER_UDFCHKBOX02" />
+                <ScalarProperty Name="PER_UDFCHKBOX03" ColumnName="PER_UDFCHKBOX03" />
+                <ScalarProperty Name="PER_UDFCHKBOX04" ColumnName="PER_UDFCHKBOX04" />
+                <ScalarProperty Name="PER_UDFCHKBOX05" ColumnName="PER_UDFCHKBOX05" />
+                <ScalarProperty Name="PER_JOBTITLE" ColumnName="PER_JOBTITLE" />
+                <ScalarProperty Name="PER_SUPERVISOR" ColumnName="PER_SUPERVISOR" />
+                <ScalarProperty Name="PER_HIREDATE" ColumnName="PER_HIREDATE" />
+                <ScalarProperty Name="PER_BIRTHDATE" ColumnName="PER_BIRTHDATE" />
+                <ScalarProperty Name="PER_TERMINATEDDATE" ColumnName="PER_TERMINATEDDATE" />
+                <ScalarProperty Name="PER_PAYROLLNO" ColumnName="PER_PAYROLLNO" />
+                <ScalarProperty Name="PER_SECURITYBADGENO" ColumnName="PER_SECURITYBADGENO" />
+                <ScalarProperty Name="PER_ADDRESS" ColumnName="PER_ADDRESS" />
+                <ScalarProperty Name="PER_CITY" ColumnName="PER_CITY" />
+                <ScalarProperty Name="PER_STATE" ColumnName="PER_STATE" />
+                <ScalarProperty Name="PER_ZIP" ColumnName="PER_ZIP" />
+                <ScalarProperty Name="PER_COUNTRY" ColumnName="PER_COUNTRY" />
+                <ScalarProperty Name="PER_EMERGENCYCONTACT" ColumnName="PER_EMERGENCYCONTACT" />
+                <ScalarProperty Name="PER_EMERGENCYCONTACTPHNO" ColumnName="PER_EMERGENCYCONTACTPHNO" />
+                <ScalarProperty Name="PER_MOBILEPHONENO" ColumnName="PER_MOBILEPHONENO" />
+                <ScalarProperty Name="PER_HOMEPHONENO" ColumnName="PER_HOMEPHONENO" />
+                <ScalarProperty Name="PER_URL" ColumnName="PER_URL" />
+                <ScalarProperty Name="PER_FAX" ColumnName="PER_FAX" />
+                <ScalarProperty Name="PER_INITIALS" ColumnName="PER_INITIALS" />
+                <ScalarProperty Name="PER_TRADESPERSON" ColumnName="PER_TRADESPERSON" />
+                <ScalarProperty Name="PER_WORKSPACEOCCUPANT" ColumnName="PER_WORKSPACEOCCUPANT" />
+                <ScalarProperty Name="PER_LASTSAVED" ColumnName="PER_LASTSAVED" />
+                <ScalarProperty Name="PER_PROFILEPICTURE" ColumnName="PER_PROFILEPICTURE" />
+                <ScalarProperty Name="PER_DETERMINESCREWLOCATION" ColumnName="PER_DETERMINESCREWLOCATION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="R5PERSONNELQUALIFICATIONS">
+            <EntityTypeMapping TypeName="EAM_NL_TESTModel.R5PERSONNELQUALIFICATIONS">
+              <MappingFragment StoreEntitySet="R5PERSONNELQUALIFICATIONS">
+                <ScalarProperty Name="PQU_PERSON" ColumnName="PQU_PERSON" />
+                <ScalarProperty Name="PQU_QUALIFICATION" ColumnName="PQU_QUALIFICATION" />
+                <ScalarProperty Name="PQU_PURPOSE" ColumnName="PQU_PURPOSE" />
+                <ScalarProperty Name="PQU_HOURS" ColumnName="PQU_HOURS" />
+                <ScalarProperty Name="PQU_CEU" ColumnName="PQU_CEU" />
+                <ScalarProperty Name="PQU_COURSESTART" ColumnName="PQU_COURSESTART" />
+                <ScalarProperty Name="PQU_COURSEFINISH" ColumnName="PQU_COURSEFINISH" />
+                <ScalarProperty Name="PQU_COURSECOST" ColumnName="PQU_COURSECOST" />
+                <ScalarProperty Name="PQU_CURRENCY" ColumnName="PQU_CURRENCY" />
+                <ScalarProperty Name="PQU_COURSECOMPLETED" ColumnName="PQU_COURSECOMPLETED" />
+                <ScalarProperty Name="PQU_CERTIFICATION" ColumnName="PQU_CERTIFICATION" />
+                <ScalarProperty Name="PQU_CERTIFICATIONTYPE" ColumnName="PQU_CERTIFICATIONTYPE" />
+                <ScalarProperty Name="PQU_QUALIFICATIONSTART" ColumnName="PQU_QUALIFICATIONSTART" />
+                <ScalarProperty Name="PQU_DURATION" ColumnName="PQU_DURATION" />
+                <ScalarProperty Name="PQU_DURATIONUOM" ColumnName="PQU_DURATIONUOM" />
+                <ScalarProperty Name="PQU_EXPIRATION" ColumnName="PQU_EXPIRATION" />
+                <ScalarProperty Name="PQU_COMMENTS" ColumnName="PQU_COMMENTS" />
+                <ScalarProperty Name="PQU_TEMPDISQUALIFIED" ColumnName="PQU_TEMPDISQUALIFIED" />
+                <ScalarProperty Name="PQU_UPDATED" ColumnName="PQU_UPDATED" />
+                <ScalarProperty Name="PQU_UPDATECOUNT" ColumnName="PQU_UPDATECOUNT" />
+                <ScalarProperty Name="PQU_SQLIDENTITY" ColumnName="PQU_SQLIDENTITY" />
+                <ScalarProperty Name="PQU_LASTSAVED" ColumnName="PQU_LASTSAVED" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

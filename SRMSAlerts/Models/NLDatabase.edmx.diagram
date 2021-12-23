@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="971fe1a0ecbf4f78bf4d3bc8063589dd" Name="Diagram1" ZoomLevel="34">
+        <EntityTypeShape EntityType="EAM_NL_TESTModel.R5PERSONNEL" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EAM_NL_TESTModel.R5PERSONNELQUALIFICATIONS" Width="1.5" PointX="5.375" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="EAM_NL_TESTModel.R5FOK1_PQU" ManuallyRouted="false" />
+        <AssociationConnector Association="EAM_NL_TESTModel.R5FOK8_PER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

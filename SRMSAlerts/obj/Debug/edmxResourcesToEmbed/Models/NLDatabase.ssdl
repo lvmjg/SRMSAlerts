@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EAM_NL_TESTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="R5PERSONNEL">
+    <Key>
+      <PropertyRef Name="PER_CODE" />
+    </Key>
+    <Property Name="PER_CODE" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="PER_DESC" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_CLASS" Type="nvarchar" MaxLength="8" />
+    <Property Name="PER_MRC" Type="nvarchar" MaxLength="15" />
+    <Property Name="PER_TRADE" Type="nvarchar" MaxLength="15" />
+    <Property Name="PER_NOTUSED" Type="nvarchar" MaxLength="1" />
+    <Property Name="PER_CAPACITY" Type="numeric" Precision="24" Scale="6" />
+    <Property Name="PER_ORG" Type="nvarchar" MaxLength="15" />
+    <Property Name="PER_CLASS_ORG" Type="nvarchar" MaxLength="15" />
+    <Property Name="PER_EMAILADDRESS" Type="nvarchar" MaxLength="255" />
+    <Property Name="PER_NOTIFICATIONPREF" Type="nvarchar" MaxLength="4" />
+    <Property Name="PER_USER" Type="nvarchar" MaxLength="255" />
+    <Property Name="PER_CREATED" Type="datetime" />
+    <Property Name="PER_CREATEDBY" Type="nvarchar" MaxLength="255" />
+    <Property Name="PER_UPDATED" Type="datetime" />
+    <Property Name="PER_UPDATEDBY" Type="nvarchar" MaxLength="255" />
+    <Property Name="PER_UPDATECOUNT" Type="numeric" Precision="38" Scale="0" />
+    <Property Name="PER_SQLIDENTITY" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PER_FLEETCUSTOMER" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_FLEETCUSTOMER_ORG" Type="nvarchar" MaxLength="15" />
+    <Property Name="PER_COSTCODE" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_DRIVERSLICENSE" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_PHONE" Type="nvarchar" MaxLength="50" />
+    <Property Name="PER_PARENT" Type="nvarchar" MaxLength="15" />
+    <Property Name="PER_SCHEDULINGSESSIONID" Type="nvarchar" MaxLength="20" />
+    <Property Name="PER_SCHEDULINGTYPE" Type="nvarchar" MaxLength="4" />
+    <Property Name="PER_CUSTOMER" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_CUSTOMER_ORG" Type="nvarchar" MaxLength="15" />
+    <Property Name="PER_ALIAS" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_OBJECT" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_OBJECT_ORG" Type="nvarchar" MaxLength="15" />
+    <Property Name="PER_UDFCHAR01" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR02" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR03" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR04" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR05" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR06" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR07" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR08" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR09" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR10" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR11" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR12" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR13" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR14" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR15" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR16" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR17" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR18" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR19" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR20" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR21" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR22" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR23" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR24" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR25" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR26" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR27" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR28" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR29" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFCHAR30" Type="nvarchar" MaxLength="80" />
+    <Property Name="PER_UDFNUM01" Type="numeric" Precision="24" Scale="6" />
+    <Property Name="PER_UDFNUM02" Type="numeric" Precision="24" Scale="6" />
+    <Property Name="PER_UDFNUM03" Type="numeric" Precision="24" Scale="6" />
+    <Property Name="PER_UDFNUM04" Type="numeric" Precision="24" Scale="6" />
+    <Property Name="PER_UDFNUM05" Type="numeric" Precision="24" Scale="6" />
+    <Property Name="PER_UDFDATE01" Type="datetime" />
+    <Property Name="PER_UDFDATE02" Type="datetime" />
+    <Property Name="PER_UDFDATE03" Type="datetime" />
+    <Property Name="PER_UDFDATE04" Type="datetime" />
+    <Property Name="PER_UDFDATE05" Type="datetime" />
+    <Property Name="PER_UDFCHKBOX01" Type="nvarchar" MaxLength="1" />
+    <Property Name="PER_UDFCHKBOX02" Type="nvarchar" MaxLength="1" />
+    <Property Name="PER_UDFCHKBOX03" Type="nvarchar" MaxLength="1" />
+    <Property Name="PER_UDFCHKBOX04" Type="nvarchar" MaxLength="1" />
+    <Property Name="PER_UDFCHKBOX05" Type="nvarchar" MaxLength="1" />
+    <Property Name="PER_JOBTITLE" Type="nvarchar" MaxLength="50" />
+    <Property Name="PER_SUPERVISOR" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_HIREDATE" Type="datetime" />
+    <Property Name="PER_BIRTHDATE" Type="datetime" />
+    <Property Name="PER_TERMINATEDDATE" Type="datetime" />
+    <Property Name="PER_PAYROLLNO" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_SECURITYBADGENO" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_ADDRESS" Type="nvarchar" MaxLength="50" />
+    <Property Name="PER_CITY" Type="nvarchar" MaxLength="20" />
+    <Property Name="PER_STATE" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_ZIP" Type="nvarchar" MaxLength="10" />
+    <Property Name="PER_COUNTRY" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_EMERGENCYCONTACT" Type="nvarchar" MaxLength="50" />
+    <Property Name="PER_EMERGENCYCONTACTPHNO" Type="nvarchar" MaxLength="50" />
+    <Property Name="PER_MOBILEPHONENO" Type="nvarchar" MaxLength="50" />
+    <Property Name="PER_HOMEPHONENO" Type="nvarchar" MaxLength="50" />
+    <Property Name="PER_URL" Type="nvarchar" MaxLength="1000" />
+    <Property Name="PER_FAX" Type="nvarchar" MaxLength="50" />
+    <Property Name="PER_INITIALS" Type="nvarchar" MaxLength="3" />
+    <Property Name="PER_TRADESPERSON" Type="nvarchar" MaxLength="1" />
+    <Property Name="PER_WORKSPACEOCCUPANT" Type="nvarchar" MaxLength="1" />
+    <Property Name="PER_LASTSAVED" Type="datetime2" Precision="7" />
+    <Property Name="PER_PROFILEPICTURE" Type="nvarchar" MaxLength="30" />
+    <Property Name="PER_DETERMINESCREWLOCATION" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="R5PERSONNELQUALIFICATIONS">
+    <Key>
+      <PropertyRef Name="PQU_PERSON" />
+      <PropertyRef Name="PQU_QUALIFICATION" />
+      <PropertyRef Name="PQU_QUALIFICATIONSTART" />
+    </Key>
+    <Property Name="PQU_PERSON" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="PQU_QUALIFICATION" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="PQU_PURPOSE" Type="nvarchar" MaxLength="80" />
+    <Property Name="PQU_HOURS" Type="numeric" Precision="5" Scale="1" />
+    <Property Name="PQU_CEU" Type="numeric" Precision="5" Scale="1" />
+    <Property Name="PQU_COURSESTART" Type="datetime" />
+    <Property Name="PQU_COURSEFINISH" Type="datetime" />
+    <Property Name="PQU_COURSECOST" Type="numeric" Precision="24" Scale="6" />
+    <Property Name="PQU_CURRENCY" Type="nvarchar" MaxLength="3" />
+    <Property Name="PQU_COURSECOMPLETED" Type="nvarchar" MaxLength="1" />
+    <Property Name="PQU_CERTIFICATION" Type="nvarchar" MaxLength="20" />
+    <Property Name="PQU_CERTIFICATIONTYPE" Type="nvarchar" MaxLength="8" />
+    <Property Name="PQU_QUALIFICATIONSTART" Type="datetime" Nullable="false" />
+    <Property Name="PQU_DURATION" Type="numeric" Precision="4" Scale="0" />
+    <Property Name="PQU_DURATIONUOM" Type="nvarchar" MaxLength="10" />
+    <Property Name="PQU_EXPIRATION" Type="datetime" />
+    <Property Name="PQU_COMMENTS" Type="nvarchar" MaxLength="80" />
+    <Property Name="PQU_TEMPDISQUALIFIED" Type="nvarchar" MaxLength="1" />
+    <Property Name="PQU_UPDATED" Type="datetime" />
+    <Property Name="PQU_UPDATECOUNT" Type="numeric" Precision="38" Scale="0" />
+    <Property Name="PQU_SQLIDENTITY" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PQU_LASTSAVED" Type="datetime2" Precision="7" />
+  </EntityType>
+  <Association Name="R5FOK1_PQU">
+    <End Role="R5PERSONNEL" Type="Self.R5PERSONNEL" Multiplicity="1" />
+    <End Role="R5PERSONNELQUALIFICATIONS" Type="Self.R5PERSONNELQUALIFICATIONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="R5PERSONNEL">
+        <PropertyRef Name="PER_CODE" />
+      </Principal>
+      <Dependent Role="R5PERSONNELQUALIFICATIONS">
+        <PropertyRef Name="PQU_PERSON" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R5FOK8_PER">
+    <End Role="R5PERSONNEL" Type="Self.R5PERSONNEL" Multiplicity="0..1" />
+    <End Role="R5PERSONNEL1" Type="Self.R5PERSONNEL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="R5PERSONNEL">
+        <PropertyRef Name="PER_CODE" />
+      </Principal>
+      <Dependent Role="R5PERSONNEL1">
+        <PropertyRef Name="PER_PARENT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EAM_NL_TESTModelStoreContainer">
+    <EntitySet Name="R5PERSONNEL" EntityType="Self.R5PERSONNEL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="R5PERSONNELQUALIFICATIONS" EntityType="Self.R5PERSONNELQUALIFICATIONS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="R5FOK1_PQU" Association="Self.R5FOK1_PQU">
+      <End Role="R5PERSONNEL" EntitySet="R5PERSONNEL" />
+      <End Role="R5PERSONNELQUALIFICATIONS" EntitySet="R5PERSONNELQUALIFICATIONS" />
+    </AssociationSet>
+    <AssociationSet Name="R5FOK8_PER" Association="Self.R5FOK8_PER">
+      <End Role="R5PERSONNEL" EntitySet="R5PERSONNEL" />
+      <End Role="R5PERSONNEL1" EntitySet="R5PERSONNEL" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
